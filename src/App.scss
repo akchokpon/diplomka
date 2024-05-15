@@ -3,13 +3,13 @@
 // variables
 $clr-black: #000;
 $clr-white: #fff;
-$clr-orange: #F94E30;
-$clr-light-orange: #FF6433;
+$clr-orange: #ff0000;
+$clr-light-orange: rgb(5, 98, 88);
 $clr-light-gray: #F2F2F2;
 $clr-light: #F4F4F4;
 $clr-whitesmoke: #F5F5F5;
 $clr-dark: #212529;
-$clr-danger: #DC3545;
+$clr-danger: #6a6a6a;
 $clr-gray: #929292;
 $font-family-manrope: 'Manrope', sans-serif;
 $font-family-poppins: 'Poppins', sans-serif;
@@ -108,8 +108,8 @@ input, textarea, select{
   &-justify{text-align: justify;}
   &-uppercase{text-transform: uppercase;}
   &-capitalize{text-transform: capitalize;}
-  &-orange{color: $clr-orange;}
-  &-light-orange{color: $clr-light-orange;}
+  &-orange{color: rgb(5, 98, 88);}
+  &-light-orange{color: rgb(5, 98, 88);}
   &-light-gray{color: $clr-light-gray;}
   &-whitesmoke{color: $clr-whitesmoke;}
   &-white{color: $clr-white;}
@@ -120,8 +120,8 @@ input, textarea, select{
 }
 
 .bg{
-  &-orange{background-color: $clr-orange;}
-  &-light-orange{background-color: $clr-light-orange;}
+  &-orange{background-color: rgb(5, 98, 88);}
+  &-light-orange{background-color: rgb(5, 98, 88);}
   &-light-gray{background-color: $clr-light-gray;}
   &-light{background-color: $clr-light;}
   &-white{background-color: $clr-white;}
