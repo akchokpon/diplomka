@@ -10,8 +10,8 @@
         position: absolute;
         left: -5px;
         top: 1.6rem;
-        background-color: $clr-orange;
-        color: $clr-white;
+        background-color: rgb(0, 128, 109);
+        color: rgb(255, 255, 255);
         font-size: 13px;
         text-transform: capitalize;
         padding: 0.2rem 1rem;
@@ -27,7 +27,7 @@
             height: 0;
             border-top: 5px solid transparent;
             border-bottom: 5px solid transparent;
-            border-right: 5px solid $clr-orange;
+            border-right: 5px solid rgb(0, 128, 109);
         }
     }
 
