@@ -1,5 +1,6 @@
 import './Menu.css';
 import {Link} from 'react-router-dom'
+import About from '../../pages/About/About';
 
 function Menu() {
   return (
