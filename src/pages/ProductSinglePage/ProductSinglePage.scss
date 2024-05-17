@@ -112,7 +112,7 @@
                     .btn{
                         height: 46px;
                         font-size: 15px;
-                        border: 1px solid $clr-orange;
+                        border: 1px solid rgb(5, 98, 88);
                         padding: 0 1.8rem;
                         transition: $transition-ease;
                         
@@ -121,11 +121,11 @@
                         }
                         &:first-child{
                             background-color: #FFEEE8;
-                            color: $clr-orange;
+                            color: rgb(5, 98, 88);
                         }
                         &:last-child{
-                            background-color: $clr-orange;
-                            color: white;
+                            background-color:  rgb(5, 98, 88);
+                            color: rgb(255, 255, 255);
                         }
                         &:hover{
                             opacity: 0.9;
